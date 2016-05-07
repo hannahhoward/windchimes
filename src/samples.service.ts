@@ -2,11 +2,11 @@ import {Injectable, Inject, NgZone} from 'angular2/core';
 const loader = require('webaudio-buffer-loader');
 
 const NOTE_SAMPLES = {
-  C4: require("file!./samples/n_C4.mp3"),
-  G4: require("file!./samples/n_G4.mp3"),
-  C5: require("file!./samples/n_C5.mp3"),
-  D5: require("file!./samples/n_D5.mp3"),
-  E5: require("file!./samples/n_E5.mp3"),
+  C4: require("file!./samples/badnews.mp3"),
+  G4: require("file!./samples/cellos.mp3"),
+  C5: require("file!./samples/bubbles.mp3"),
+  D5: require("file!./samples/bells.mp3"),
+  E5: require("file!./samples/goodnews.mp3"),
   PIANO_C4: require("file!./samples/piano_C4.mp3"),
   PIANO_G4: require("file!./samples/piano_G4.mp3"),
   PIANO_C5: require("file!./samples/piano_C5.mp3"),

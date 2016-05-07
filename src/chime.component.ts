@@ -9,6 +9,7 @@ import {Audio} from './audio.service';
     <div class="ring {{chime.note}}" @expand="any"
          [style.left.px]="chime.x - 300"
          [style.top.px]="chime.y - 300">
+      Dave
     </div>
     <div class="light" @flash="any"
          [style.left.px]="chime.x - 300"
@@ -24,7 +25,7 @@ import {Audio} from './audio.service';
           animate('5s',
             style({opacity: 0})),
           animate('5s cubic-bezier(0,.79,.13,.71)',
-            style({transform: 'scale3d(1,1,1) translateZ(0)'}))
+            style({transform: 'scale3d(2,2,2) translateZ(0)'}))
         ])
       ])
     ]),

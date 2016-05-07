@@ -1,4 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
 .ring, .light {
+  font-size: 10em;
+  text-align: center;
   display: block;
   position: absolute;
   box-sizing: border-box;
@@ -12,14 +16,13 @@
 }
 
 .ring {
-  border-width: 200px;
-  border-style: solid;
+  font-family: 'Akronim', cursive;
 }
-.ring.C4 { border-color: #FF3D7F; }
-.ring.G4 { border-color: #FF9E9D; }
-.ring.C5 { border-color: #DAD8A7; }
-.ring.D5 { border-color: #7FC7AF; }
-.ring.E5 { border-color: #3FB8AF; }
+.ring.C4 { color: #FF3D7F; }
+.ring.G4 { color: #FF9E9D; }
+.ring.C5 { color: #DAD8A7; }
+.ring.D5 { color: #7FC7AF; }
+.ring.E5 { color: #3FB8AF; }
 
 .light {
   background-image: radial-gradient(
